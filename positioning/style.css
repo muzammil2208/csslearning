@@ -1,0 +1,27 @@
+.container
+{
+    position:relative;
+    border:solid 10px green;
+    background-color: grey;
+    top:100px;
+}
+#one{
+    position:absolute;
+    right:0px;
+    top:100px;
+    background-color:red;
+}
+#two
+{
+    position:static;
+    background-color: blue;
+
+}
+#third
+{
+    position:relative;
+    right:100px;
+    
+    background-color: green;
+
+}
