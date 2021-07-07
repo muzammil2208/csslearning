@@ -1,0 +1,16 @@
+*{
+    background-color:grey;
+}
+
+li:first-child{
+    color:red;
+}
+li::first-letter
+{
+    color:blue;
+}
+
+div:target
+{
+    background-color: green;
+}
