@@ -4,6 +4,7 @@
     border:solid 10px green;
     background-color: grey;
     top:100px;
+    overflow: auto;
 }
 #one{
     position:absolute;
