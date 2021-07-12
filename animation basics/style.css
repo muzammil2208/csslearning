@@ -1,0 +1,17 @@
+.container
+{
+    height: 100px;
+    width:100px;
+    background-color: grey;
+    -webkit-animation-name:ride;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing:linear;
+    -webkit-animation-iteration-count:1;
+}
+
+@-webkit-keyframes ride{
+    from{-webkit-transform:translateY(0px);
+        background-color:red;}
+    to{-webkit-transform:translateY(400px);
+    background-color:yellow;}
+}
