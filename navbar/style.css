@@ -1,0 +1,70 @@
+.Main{
+    background-color:yellow;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:0 100px;
+}
+.navheader
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+    background-color: brown;
+}
+.navitems
+{
+    width:100%;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.navitem-1
+{
+    background-color:blue;
+    padding:10px;
+
+}
+.navitem-2
+{
+    background-color:red;
+    padding:10px;
+}
+.navitem-3
+{
+    background-color:pink;
+    padding:10px;
+}
+.search
+{
+    background-color:black;
+    color:white;
+}
+
+
+@media(max-width:720px)
+{
+    .Main{
+        flex-direction: column;
+        padding:0;
+    }
+    .navitems{
+        flex-direction: column;
+    }
+    .navitem-1
+    {
+        text-align:center;
+    }
+    .navitem-2
+    {
+        text-align: center;
+    }
+    .navitem-3
+    {
+        text-align:center;
+    }
+}
