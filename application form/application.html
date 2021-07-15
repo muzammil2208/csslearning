@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>Application for permission to date my daughter</header>
+        <p><strong>Note:</strong>Form is to be submitted 21 days prior to date</p> 
+        <form action="">
+            <fieldset>
+                <legend>Personal Details</legend>
+               
+                    <label for="Name">Name:</label><input id="Name" type="text"><br>
+                    <label for="Address">Address:</label><input id="Address" type="text"><br>
+                    <label for="email">Email:</label><input type="email" id="email"><br>
+                    <label for="Number">Phone Number:</label><input type="number" id="number"><br>
+                    <label for="IQ">IQ:</label><input type="number" id="IQ"><br>
+                    <label for="Gender">Gender:</label><br>
+                    <input type="radio" name="Gender" id="Gender">Male <br>
+                    <input type="radio" name="Gender" id="Gender">Female <br>
+                    <input type="radio" name="Gender" id="Gender">Other <br>
+                    <label  for="Date-proposed">Date of proposed outing:</label><input type="date" id="date">
+        
+               
+    
+                
+            </fieldset>
+            <fieldset>
+                Check All That Apply <br><br>
+
+                <input type="checkbox"> I have tatoos and piercings <br>
+                <input type="checkbox"> I am more than 2 years older than my daughter <br>
+                <input type="checkbox">  I own a panel van or V8 ute <br>
+                <input type="checkbox"> I work full-time<br>
+                <input type="checkbox"> My parents are rich <br>
+                <input type="checkbox">  Is the date at a well lit public location <br>
+
+            </fieldset>
+            <fieldset>
+                <label for="political">Political Persuation:</label><select>
+                    <option value="left wing">left wing</option>
+                    <option value="right wing">right wing</option>
+                    <option value="conservatinve">conservative</option>
+                    <option value="nazis">Nazis</option>
+                    
+                </select>
+                <label for="education">Education Completed:</label>
+                <select name="Education" id="education">
+                    <option value="Graduate">Graduate</option>
+                    <option value="Highschool">High school</option>
+                    <option value="University">University</option>
+                    <option value="none">None</option>
+                </select>
+            </fieldset>
+            <fieldset class="essay">
+                <legend>Essay Section</legend>
+                <label for="description">In 50 words or more explain Why you want to date my daughter</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <br>
+                <label for="contact">Please upload contact details for 2 referrences:</label>
+                <textarea name="Contact" id="contact" cols="30" rows="10"></textarea>
+                <label for="clearance-certificate">Upload Police clearance certificate:</label>
+                <input type="file" placeholder="Attach Files">
+            </fieldset>
+    
+        </form>
+       <div id="submit-button">
+        <button>Send Your application</button>
+       </div>
+        
+    </div>
+    
+</body>
+</html>

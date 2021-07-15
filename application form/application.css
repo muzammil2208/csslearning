@@ -1,0 +1,63 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.main-container
+{
+    font-family: inherit;
+    background-color:white;
+    border-radius:10px;
+    padding:30px 10px;
+    
+
+}
+.main-container h1{
+    text-align: center;
+}
+label
+{
+    display:inline-block;
+    margin:10px;
+}
+
+fieldset
+{
+    margin:10px;
+}
+button
+{
+    padding:5px;
+    color:white;
+    background-color:red;
+    border:none;
+    font-size:22px;
+    text-align: center;
+
+}
+input[type="file"]
+{
+    background-color: red;
+}
+.essay label
+{
+    display: block;
+}
+#submit-button
+{
+    display:flex;
+    justify-content: center;
+}
+header
+{
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
