@@ -1,0 +1,137 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+}
+
+
+body
+{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"), linear-gradient(
+110deg
+, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    /* background: white; */
+    background-attachment: fixed;
+    letter-spacing: -1px;
+}
+nav
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:10px;
+
+}
+.item
+{
+    background-color:var(--yellow);
+    color:black;
+    padding:10px;
+    font-size:1.2em;
+    text-align:center;
+}
+main
+{
+    margin-top:2em;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: auto auto 20%;
+    grid-template-areas: 'taco-img taco-img taco-price'
+    'taco-img taco-img kambucha-price';
+}
+.taco-img
+{
+    grid-area: taco-img;
+    background-image:url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+    padding:50px;
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+.taco-price
+{
+    grid-area:taco-price;
+    background-color:var(--yellow);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.taco-img .heading
+{
+    margin:10px;
+    display: inline-block;
+    background-color:var(--yellow);
+    font-size:1.4em;
+    width:auto;
+}
+.taco-img .base-text
+{
+    margin:10px;
+    background-color:var(--yellow);
+    font-size:1em;
+    width:auto;
+    display:inline-block;
+}
+.kambucha-price
+{
+    grid-area:kambucha-price;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--yellow);
+}
+.cards
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top:2em;
+    grid-gap:10px;
+}
+.card
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1em;
+    
+    background-color:white;
+}
+.card span{
+    font-size: 4em;
+}
+.taco
+{
+    display:grid;
+    padding:4em;
+    grid-template-columns:auto auto;
+    grid-template-rows:50vh ;
+    background-color:white;
+    margin-top:2em;
+}
+
+
+
+.taco .description
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.taco .description button
+{
+ background-color:var(--yellow);
+ text-align: center;
+ padding:10px;
+}
+.gallery
+{
+    margin-top:2em;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:10px;
+}
