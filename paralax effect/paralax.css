@@ -1,0 +1,14 @@
+body,html
+{
+    height: 100%;
+}
+.paralax
+{
+    background-image: url("https://images.unsplash.com/photo-1624862304762-3dc2366f6141?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhhamp8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}

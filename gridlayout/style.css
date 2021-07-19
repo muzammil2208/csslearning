@@ -1,0 +1,27 @@
+.grid-container
+{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+    background-color:lightblue;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+
+}
+.grid-item
+{
+
+    padding:10px;
+    font-size:22px;
+    background-color:blue;
+    color:white;
+    border:1px solid darkblue;
+    text-align: center;
+}
+
+
+@media(max-width:500px)
+{
+
+
+}
