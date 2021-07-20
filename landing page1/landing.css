@@ -91,3 +91,34 @@ body
     background-color: #926239;
     color:white;
 }
+.arrow {
+    
+    border-right: solid #926239 3px;
+    border-bottom:solid #926239 3px;
+    height:40px;
+    width:40px; 
+    transform:rotate(45deg) translate(100px,100px);
+    animation:arrow-animation 2s infinite linear;
+    
+
+    
+  }
+  @keyframes arrow-animation
+  {
+      0%{
+        
+          
+        transform:rotate(45deg) translate(0px,0px)
+
+      }
+      50%
+      {
+        
+        transform:rotate(45deg) translate(20px,20px)
+      }
+      100%
+      {
+        transform:rotate(45deg) translate(0px,0px)
+        
+      }
+  }
