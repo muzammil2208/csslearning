@@ -199,3 +199,22 @@ footer
     padding:0 18%;
 }
 
+section
+{
+    padding:5% 18%;
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    text-align: center;
+}
+.section-heading
+{
+    font-size:2.3em;
+    color:var(--color-ascent);
+    
+}
+.section-content
+{
+    font-size:1.4em;
+    margin-top:30px;
+    color:var(--color-font);
+    line-height: 1.3em;
+}
