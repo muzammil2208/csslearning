@@ -189,6 +189,7 @@ footer
     text-transform: capitalize;
     color:white;
     font-weight: 100;
+    text-decoration: none;
 }
 .footer-navitem:hover{
 
