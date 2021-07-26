@@ -1,0 +1,29 @@
+.container
+{
+   padding:5% 10%;
+}
+form
+{
+    border:solid 1px rgb(177, 177, 177);
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+label,input,button
+{
+    margin-top:10px;
+}
+button
+{
+    width:20%;
+}
+.button-area
+{
+    
+    display: flex;
+    justify-content:center;
+}
+.card
+{
+    padding:10px;
+}
