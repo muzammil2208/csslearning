@@ -42,7 +42,7 @@ header
     padding-top:10%;
     line-height: 1.2em;
     color:white;
-    width:50%;
+    display:inline-block;
     font-size:2.4em;
     font-weight: 100;
    
