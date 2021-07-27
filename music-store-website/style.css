@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+  width: 100%;
+  padding: 0px 20px;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f4f4f4;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+
+nav .navitems {
+  text-decoration: none;
+  color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li:hover {
+  background-color: #727272;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h1 {
+  color: #f4f4f4;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2.5rem;
+}
+
+.main h2 {
+  color: #f4f4f4;
+  font-size: 2rem;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.main p {
+  color: #f4f4f4;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px 150px;
+}
+
+#music-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #333;
+  text-align: center;
+  color: #f4f4f4;
+  padding: 20px 150px;
+}
+
+#music-container h1 {
+  font-size: 3rem;
+  margin: 20px 0px;
+}
+
+#music-container h2 {
+  font-size: 2em;
+  margin: 20px 0px;
+}
+
+#music-container p {
+  font-size: 1.2em;
+  margin: 20px 0px;
+}
+
+#music-container .subpara {
+  font-size: 1em;
+}
+
+#music-container button {
+  padding: 20px 20px;
+  background-color: #b90415;
+  color: #f4f4f4;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
