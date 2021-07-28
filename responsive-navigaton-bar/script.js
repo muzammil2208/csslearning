@@ -1,5 +1,5 @@
-var toggle=document.getElementsByTagName("button")[0]
+var toggle=document.getElementsByTagName("button");
 var navbar_container=document.getElementsByClassName("navbar-items")[0]
 toggle.addEventListener('click',()=>{
-    navbar_container.classList.toggle('active');
+console.log(navbar_container)
 })
