@@ -291,4 +291,41 @@ footer a {
   text-decoration: none;
   color: #f4f4f4;
 }
+
+@media (max-width: 640px) {
+  .main h1 {
+    font-size: 3em;
+    margin: 2.5rem 0rem;
+  }
+  .main h2 {
+    font-size: 2em;
+    padding: 20px;
+  }
+  .main p {
+    padding: 10px;
+    display: none;
+  }
+  #music-container {
+    padding: 20px 10px;
+  }
+  #music-container p {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  #video-container {
+    padding: 20px 10px;
+  }
+  #gift-cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-links-container {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
