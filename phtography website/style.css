@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #eeee;
+  padding: 0 20%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-container {
+  -webkit-box-shadow: 2rem 2rem 2rem #aaaaaa,-2rem -2rem 2rem #aaaaaa;
+          box-shadow: 2rem 2rem 2rem #aaaaaa,-2rem -2rem 2rem #aaaaaa;
+  background-color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.header-container .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: inherit;
+}
+
+.header-container .header-image {
+  background-image: url("https://images.unsplash.com/photo-1522206024047-9c925421675b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 100%;
+}
+
+.header-container h1 {
+  font: inherit;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px;
+}
+
+.header-container p {
+  font: inherit;
+  color: lightgray;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.header-container a {
+  text-decoration: none;
+  padding: 20px 50px;
+  color: black;
+  font: inherit;
+  border: 2px solid #eeee;
+  border-radius: 50px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.header-container a:hover {
+  background-color: #eeee;
+}
+
+.artwork-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #ffff;
+  -webkit-box-shadow: 2rem 2rem 2rem #aaaaaa,-2rem -2rem 2rem #aaaaaa;
+          box-shadow: 2rem 2rem 2rem #aaaaaa,-2rem -2rem 2rem #aaaaaa;
+}
+
+.artwork-container .artwork-heading {
+  display: block;
+  text-align: center;
+  background-color: #333;
+  width: 100%;
+  font-size: 1em;
+  padding: 20px 10px;
+  color: #eeee;
+}
+
+.artwork-container img {
+  width: 100%;
+}
+
+.artwork-container .image-container {
+  text-align: center;
+}
+
+.artwork-container .image-container .image-container-heading {
+  font-size: 1.3em;
+  margin: 10px;
+  font-weight: 400;
+}
+
+.artwork-container .image-container .image-container-content {
+  padding: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 10px;
+}
+
+footer .footer-heading {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+footer p {
+  padding: 10px;
+}
+
+@media (max-width: 1020px) {
+  body {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0px 0px;
+  }
+  .header-image {
+    width: 100%;
+  }
+  .header-content {
+    width: 100%;
+    padding: 0px;
+  }
+  .header-content h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .header-content p {
+    font-size: 1rem;
+  }
+  .header-content a {
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
