@@ -5,38 +5,12 @@
 .grid-container
 {
     display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
     background-color:lightblue;
-    grid-template-columns: auto auto auto;
-    grid-template-rows:100px 100px 100px;
-    grid-template-areas: 'header header header'
-    'section1 . section2'
-    'footer footer footer';
     grid-gap:10px;
-    text-align:center;
 }
-#header
+.item
 {
-    grid-area: header;
-    background-color:red;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-#section1
-{
-    grid-area: section1;
-    background-color:white;
-
-}
-#section2
-{
-    grid-area:section2;
-    background-color:green;
-}
-#footer
-{
-    grid-area:footer;
-    background-color:black;
-    color:white;
+    background-color:blue;
 }

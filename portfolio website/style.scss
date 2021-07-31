@@ -1,0 +1,168 @@
+
+
+    $main-white: #f0f0f0;
+    $main-red: #be3144;
+    $main-blue: #45567d;
+    $main-gray: #303841;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    width:100%;
+    padding:0px 20px;
+    background-color:$main-red;
+    justify-content: space-between;
+    z-index: 1;
+    position:fixed;
+    .navbar-brand
+    {
+        display:flex;
+        font-size:1.3em;
+        color:$main-white;
+        font-weight: 400;
+        justify-content: center;
+        align-items: center;
+    }
+    .toggle-btn{
+        display:none;
+    }
+    .navbar-items
+    {
+        display:flex;
+        height: 100%;
+        
+        
+
+    }
+    .navitems{
+        list-style-type: none;
+        height: 100%;
+        display: block;
+        padding:20px;
+        color:$main-white;
+        transition:background-color 500ms ease;
+        text-decoration:none;
+        
+    }
+    a{
+        text-decoration:none;
+        color:$main-white;
+    }
+    .navitems:hover{
+        background-color: $main-gray;
+    }
+}
+
+.landing-page
+{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 100vh;
+    background-color:$main-gray;
+    justify-content: center;
+    align-items: center;
+    .landing-page-heading
+    {
+        font-size:3em;
+        color:$main-white;
+    }
+    span{
+        color:$main-red;
+    }
+    p{
+        font-size:2em;
+        color:$main-white;
+    }
+}
+
+#work-area
+{
+    display:flex;
+    flex-direction:column;
+    height: auto;
+    background-color:$main-blue;
+    justify-content: center;
+    align-items:center;
+    padding:30px;
+    .work-area-heading
+    {
+        text-align: center;
+        padding-top:50px;
+        padding-bottom:30px;
+        display: block;
+        color:$main-white;
+        font-size:3rem;
+        text-decoration: underline;
+    
+    }
+    .card-container
+    {
+
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:repeat(3,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap:30px;
+        
+    }
+    .card{
+        width:100%;
+        height: 30%;
+    }
+    .card-img
+    {
+        width:100%;
+    }
+    .card-heading
+    {
+        background-color: $main-gray;
+        display: flex;
+        color:$main-white;
+        font-size:2em;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+    }
+    .hover-span
+    {
+        color:$main-gray;
+        padding:0px 10px;
+        transition:color 500ms linear;
+    }
+    .card:hover
+    {
+        .hover-span{
+            color:orange;
+        }
+    }
+    
+}
+
+@media(max-width:640px)
+{
+    .landing-page
+    {
+        padding:20px;
+        text-align: center;
+    }
+    #work-area{
+        .card-container
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    }
+    
+   
+
+}

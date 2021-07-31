@@ -8,6 +8,7 @@ body, html {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -373,8 +374,7 @@ footer a {
   }
   nav ul {
     display: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
