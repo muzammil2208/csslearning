@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+.progress-bar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #eee;
+  width: 100%;
+  padding: 50px;
+}
+
+.progress-bar-container button {
+  padding: 10px;
+  border: 1px solid green;
+  background-color: inherit;
+  border-radius: 5px;
+}
+
+.progress-bar-container .progress-bar {
+  width: 100%;
+  background-color: lightgray;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.progress-bar-container .progress-bar-success {
+  background-color: #4646cf;
+  width: 0%;
+  border-radius: 5px;
+  height: 100%;
+  -webkit-transition: width 1s linear;
+  transition: width 1s linear;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height: auto;
+}
+.progress-bar-container
+{
+    display:flex;
+    flex-direction: row;
+    background-color:#eee;
+    width:100%;
+    padding:50px;
+    button{
+        padding:10px;
+        border:1px solid green;
+        background-color: inherit;
+        border-radius: 5px;
+    }
+    .progress-bar{
+        width:100%;
+        background-color:lightgray;
+        height: 20px;
+        border-radius:5px;
+
+    }
+    .progress-bar-success
+    {
+        background-color: rgb(70, 70, 207);
+        width:0%;
+        border-radius:5px;
+        height: 100%;
+        transition:width 1s linear
+    }
+    
+}
