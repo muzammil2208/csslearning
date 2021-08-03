@@ -1,0 +1,167 @@
+$background-grey:rgb(232,233,233);
+$background-dark:rgb(34,37,45);
+$dark-color:rgb(42, 45, 53);
+$text-color-dark:rgb(236, 236, 236);
+$background-white:#ffff;
+$green-color:#41FBD9;
+$red-color:#ED8282;
+$grey-color:rgb(241, 241, 241);
+$grey-button:rgb(236, 236, 236);
+$dark-button:rgb(39,43,51);
+$text-color-light:rgb(54, 54, 54);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition: background-color 500ms ease;
+   
+
+}
+html,body{
+    height: 100vh;
+    width:100vw;
+    background-color: $background-grey;
+    color:$text-color-light;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container
+{
+    height:650px;
+    width:340px;
+    background-color: $background-white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 500ms ease;
+}
+.toggle-button
+{
+    background-color: $grey-color;
+    height: 40px;
+    padding:10px;
+    width:100px;
+    position:relative;
+    top: -280px;
+    left:130px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    z-index: 1;
+    color:$text-color-light;
+    transition: background-color 500ms ease;
+    button{
+        width:100%;
+        height: 100%;
+        border:none;
+        border-radius: 10px;
+        background-color: inherit;
+        font-size:1.2rem;
+        transition:opacity 500ms ease;
+
+    }
+    #night-mode
+    {
+        opacity: 0.2;
+        background-color: inherit;
+        color:inherit
+        
+    }
+    #light-mode
+    {
+        background-color: inherit;
+        color:inherit;
+    }
+    
+}
+
+
+.keys-container
+{
+    background-color: $grey-color;
+    height: 100%;
+    border:none;
+    border-radius: inherit;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(5,1fr);
+    grid-gap:20px;
+    padding:20px;
+    button{
+        border:none;
+        border-radius: inherit;
+        font-size:1.5rem;
+        font-weight:bold;
+        
+    }
+   
+}
+.input-container
+{
+    background-color: $background-white;
+    height: 100%;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .answer
+    {
+        display: flex;
+        font-weight: bolder;
+        height: 80px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size:3rem;
+        padding:10px;
+        color:inherit;
+    }
+    .equation
+    {
+        display: flex;
+        height: 40px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 0px 10px;
+        color:inherit;
+        
+    }
+}
+.number-keys
+{
+    
+    background-color: $grey-button;
+   
+    color:inherit;
+}
+.operator-keys
+{
+    background-color: $grey-button;
+
+    color:$red-color;
+}
+.special-operation
+{
+    background-color: $grey-button;
+
+    color:$green-color;
+}
+
+
+.night-mode
+{
+    background-color:$background-dark;
+    color:$text-color-dark;
+}
+.night-mode2
+{
+    background-color:$dark-color;
+    color:$text-color-dark;
+}
+.night-mode3
+{
+    background-color: $background-dark;
+}
