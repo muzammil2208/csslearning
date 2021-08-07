@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+.parallax1
+{
+    background-image:url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax1 button
+{
+    font-size:2em;
+    background-color:#333;
+    color:white;
+    padding:20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    border:none;
+}
+.section-one
+{
+
+    background-color:white;
+    color:rgb(44, 44, 44);
+    padding:50px 80px;
+    text-align: center;
+    opacity:0.8;
+    font-size:1.3em;
+    
+}
+.parallax2
+{
+    background-image:url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    letter-spacing: 8px;
+    color:white;
+    text-transform: uppercase;
+    opacity:0.8px;
+
+}
+.section-two
+{
+
+    background-color:rgb(36, 36, 36);
+    color:white;
+    padding:50px 80px;
+    text-align: center;
+    opacity:0.8;
+    font-size:1.3em;
+    
+}
+.parallax3
+{
+    background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    letter-spacing: 8px;
+    color:white;
+    text-transform: uppercase;
+    opacity:0.8px;
+
+}
+.section-three  
+{
+
+    background-color:rgb(36, 36, 36);
+    color:white;
+    padding:50px 80px;
+    text-align: center;
+    opacity:0.8;
+    font-size:1.3em;
+    
+}
+
+
+
+

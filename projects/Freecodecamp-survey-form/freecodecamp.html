@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="freecodecamp.css">
+</head>
+<body>
+    <div class="background-container">
+        <header>freeCodeCamp Survey Form</header>
+        <p><i>Thank you for taking the time to help us improve the platform
+        </i></p>
+        <div class="main-container">
+            <form>
+                <label for="Name">Name</label><input id="Name" type="text" placeholder="Enter your name">
+                <label for="Email">Email</label><input id="Email" type="email" placeholder="Enter your Email">
+                <label for="Age">Age(optional)</label><input type="number" id="Age" min="10" max="99" placeholder="Enter your age">
+                <label for="Job">Which option best describes your current role?</label><select name="Job" id="Job">
+                    <option value="none" >Select an option</option>
+                    <option value="Student" >Student</option>
+                    <option value="Challenges">Project</option>
+                    <option value="Community">Community</option>
+
+                </select>
+                <label for="Suggestions">What would you like to see improved?(check all that apply)</label>
+                <input type="checkbox">Front-end Projects <br>
+                <input type="checkbox">Back-end Projects<br>
+                <input type="checkbox">Data Visualization<br>
+                <input type="checkbox">Challenges<br>
+                <input type="checkbox">Open Source Community<br>
+                <input type="checkbox">Gitter help rooms<br>
+                <input type="checkbox">Videos<br>
+                <input type="checkbox">City meetups<br>
+                <input type="checkbox">Wiki<br>
+                <input type="checkbox">Forum<br>
+                <input type="checkbox">Additional Courses<br>
+                <br>
+                <label for="comments">Any comments or suggestions?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"placeholder="Enter your comment here"></textarea>
+
+
+                <button>Submit</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
